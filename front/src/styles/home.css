@@ -1,0 +1,51 @@
+/* Sección Home */
+
+.bienvenidos {
+    color: #010350;
+    font-style: italic;
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+/* Agrega esto a tu archivo de estilos home.css */
+
+.testimonioscroll {
+    max-height: 300px; /* Altura máxima antes de que aparezca el scroll */
+    overflow-y: auto;
+  }
+  
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 11px;
+    background-color: rgb(163, 163, 158);
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(163, 163, 158);
+    display: block;
+    margin: 12px 0;
+}
+
+.homeing {
+    max-height: 250px;
+  }
